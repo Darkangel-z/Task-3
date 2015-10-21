@@ -60,6 +60,9 @@ padding:0 2px 7px 0;
 height:30px;
 border-right:1px solid #0c3559;
 }
+.main-navigation li:last-child{
+	border:none;
+}
 .main-navigation li a{
 	padding:10px 14px 0 14px;
 	height:30px;
@@ -175,10 +178,13 @@ border-right:1px solid #0c3559;
 	font-family:'Roboto', sans-serif;
 	background-color:#ebf2f7;
 }
+.button a{
+	color:#fff;
+	text-decoration: none;
+}
 
 button{
 	background-color:#588ebf;
-	color:#fff;
 	display:block;
 	padding:10px 15px; 
 	margin-left:15px;
@@ -241,8 +247,10 @@ background-position:0 0;
 	float:left;
 	color:#91afc9;
 }
-span{
+	
+span a{
 	color:#5eacda;
+	text-decoration: none;
 }
 .tweetimg{
 	margin-left:10px;
@@ -254,4 +262,9 @@ span{
 	float:right;
 	padding-top:8px;
 	min-height:125px;
+}
+.footer-right a{
+	text-decoration: none;
+	color:#91afc9;
+	padding-left:7px;
 }
